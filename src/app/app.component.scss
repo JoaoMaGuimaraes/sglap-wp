@@ -62,17 +62,22 @@ nav mat-toolbar {
   width: 50%;
 }
 
-.img-container {
-  display: flex;
-  }
-
-
 img {
   width: 460px;
   height: 270px;
   padding: 10px;
 }
 
+footer{
+  flex-shrink: 0;
+  flex-grow: 0;
+  background-color: lightgray;
+  padding: 3px 15px;
+}
+
+.center-footer {
+  text-align: center;
+}
 
  /* Background Style */
   svg#clouds {
