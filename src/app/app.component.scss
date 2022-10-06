@@ -9,6 +9,7 @@
 
   p {
     margin: 0;
+    text-align: justify;
   }
 
   .spacer {
@@ -55,6 +56,23 @@ nav mat-toolbar {
     padding-left: 5px;
     font-size: 35px;
 }
+
+.blog-post{
+  margin: 480px auto;
+  width: 50%;
+}
+
+.img-container {
+  display: flex;
+  }
+
+
+img {
+  width: 460px;
+  height: 270px;
+  padding: 10px;
+}
+
 
  /* Background Style */
   svg#clouds {
