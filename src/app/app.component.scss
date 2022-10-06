@@ -17,13 +17,9 @@
   }
 
   nav {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 60px;
     display: flex;
-}
+    border: 2px solid black;
+  }
 
 nav mat-toolbar {
     background-color: gray;
@@ -44,11 +40,12 @@ nav mat-toolbar {
     height: 400px;
     background-image: url("../assets/img/logo.jpg");
     position: absolute;
-    top: 63px;
+    top: 68px;
     right: 0px;
     bottom: 0px;
     left: 0px;
     opacity: 0.5;
+    border-bottom: 2px solid black;
   }
 
 .header-logo h1 {
@@ -69,6 +66,7 @@ img {
 }
 
 footer{
+  border-top: 2px solid black;
   flex-shrink: 0;
   flex-grow: 0;
   background-color: lightgray;
