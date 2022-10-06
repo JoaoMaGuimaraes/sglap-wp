@@ -22,9 +22,6 @@
     right: 0;
     height: 60px;
     display: flex;
-    align-items: center;
-    color: white;
-    font-weight: 600;
 }
 
 nav mat-toolbar {
@@ -38,6 +35,25 @@ nav mat-toolbar {
 
 .mat-icon {
     vertical-align: middle;
+}
+
+.header-logo {
+    width: 100%;
+    align-items: center;
+    height: 400px;
+    background-image: url("../assets/img/logo.jpg");
+    position: absolute;
+    top: 63px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.5;
+  }
+
+.header-logo h1 {
+    padding-top: 330px;
+    padding-left: 5px;
+    font-size: 35px;
 }
 
  /* Background Style */
